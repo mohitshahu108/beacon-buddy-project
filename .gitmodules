@@ -1,0 +1,6 @@
+[submodule "beacon-buddy-api"]
+	path = beacon-buddy-api
+	url = https://github.com/mohitshahu108/beacon-buddy-api.git
+[submodule "beacon-buddy-frontend"]
+	path = beacon-buddy-frontend
+	url = https://github.com/mohitshahu108/beacon-buddy-frontend.git
