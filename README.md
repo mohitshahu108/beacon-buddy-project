@@ -2,6 +2,14 @@
 
 Universal activity coordination platform for spontaneous social connections.
 
+## Repositories
+
+This project is split into three separate repositories:
+
+- **[beacon-buddy-api](https://github.com/mohitshahu108/beacon-buddy-api)** - Rails backend API
+- **[beacon-buddy-frontend](https://github.com/mohitshahu108/beacon-buddy-frontend)** - React Native mobile app
+- **[beacon-buddy-project](https://github.com/mohitshahu108/beacon-buddy-project)** - Project documentation and planning (this repo)
+
 ## Overview
 
 Beacon Buddy helps people create and discover local activities instantly. Whether you want to grab coffee, play sports, or find movie buddies, Beacon Buddy connects you with nearby people who share your interests.
@@ -16,23 +24,19 @@ Beacon Buddy helps people create and discover local activities instantly. Whethe
 
 ## Project Structure
 
+This repository contains:
+
 ```
-beacon-buddy/
-├── frontend/          # React Native app
-│   ├── src/
-│   │   ├── app/       # Expo Router navigation
-│   │   └── features/  # Feature-based organization
-│   ├── package.json
-│   └── app.config.ts
-├── backend/           # Rails API
-│   ├── app/
-│   │   ├── models/
-│   │   ├── controllers/
-│   │   ├── services/
-│   │   └── serializers/
-│   ├── config/
-│   └── db/migrate/
-└── README.md
+beacon-buddy-project/
+├── bmad-project/      # Project planning and requirements
+│   ├── 01-planning/   # Product requirements and brief
+│   ├── 02-design/     # Design system and UX specs
+│   ├── 03-architecture/  # Technical architecture docs
+│   └── 04-implementation/ # Epics and user stories
+├── design-artifacts/  # Visual design assets
+├── docs/             # Additional documentation
+├── .ai/              # AI context and coding guidelines
+└── scripts/          # Development utility scripts
 ```
 
 ## Getting Started
@@ -43,6 +47,19 @@ beacon-buddy/
 - Ruby 3.2+
 - PostgreSQL with PostGIS extension
 - Redis
+
+### Clone All Repositories
+
+```bash
+# Clone the main project (this repo)
+git clone https://github.com/mohitshahu108/beacon-buddy-project.git
+
+# Clone the API
+git clone https://github.com/mohitshahu108/beacon-buddy-api.git
+
+# Clone the Frontend
+git clone https://github.com/mohitshahu108/beacon-buddy-frontend.git
+```
 
 ### Frontend Setup
 
