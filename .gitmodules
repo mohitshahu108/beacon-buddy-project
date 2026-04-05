@@ -1,6 +1,0 @@
-[submodule "BeaconBuddyMobile"]
-	path = BeaconBuddyMobile
-	url = ./BeaconBuddyMobile
-[submodule "beacon_buddy_rails"]
-	path = beacon_buddy_rails
-	url = ./beacon_buddy_rails

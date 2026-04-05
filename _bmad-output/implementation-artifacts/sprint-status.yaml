@@ -1,0 +1,106 @@
+# generated: 2026-04-05T19:49:00Z
+# last_updated: 2026-04-05T19:52:00Z
+# project: projects
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: {project-root}/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-04-05T19:49:00Z
+last_updated: 2026-04-05T19:52:00Z
+project: projects
+project_key: NOKEY
+tracking_system: file-system
+story_location: {project-root}/_bmad-output/implementation-artifacts
+
+development_status:
+  epic-0: done
+  0-1-design-token-implementation: done
+  0-2-core-component-library: done
+  0-3-responsive-layout-system: done
+  0-4-theme-system-integration: done
+  0-5-animation-and-micro-interactions: done
+  epic-0-retrospective: optional
+  
+  epic-1: in-progress
+  1-1-seamless-google-authentication: review
+  1-2-profile-management: backlog
+  1-3-user-preferences: backlog
+  epic-1-retrospective: optional
+  
+  epic-2: backlog
+  2-1-location-based-beacon-feed: backlog
+  2-2-beacon-details-view: backlog
+  2-3-search-and-filtering: backlog
+  2-4-map-integration: backlog
+  epic-2-retrospective: optional
+  
+  epic-3: backlog
+  3-1-beacon-creation-flow: backlog
+  3-2-participant-management: backlog
+  3-3-activity-updates: backlog
+  3-4-beacon-analytics: backlog
+  epic-3-retrospective: optional
+  
+  epic-4: backlog
+  4-1-ephemeral-chat-system: backlog
+  4-2-push-notifications: backlog
+  4-3-beacon-sharing: backlog
+  4-4-participant-profiles: backlog
+  epic-4-retrospective: optional
+  
+  epic-5: backlog
+  5-1-reliability-scoring: backlog
+  5-2-attendance-reporting: backlog
+  5-3-score-visibility: backlog
+  5-4-dispute-resolution: backlog
+  epic-5-retrospective: optional
+  
+  epic-6: backlog
+  6-1-personalized-suggestions: backlog
+  6-2-recommendation-engine: backlog
+  6-3-suggestion-interface: backlog
+  6-4-feedback-loop: backlog
+  epic-6-retrospective: optional
+  
+  epic-7: backlog
+  7-1-corporate-account-setup: backlog
+  7-2-team-activity-management: backlog
+  7-3-analytics-dashboard: backlog
+  7-4-corporate-reporting: backlog
+  epic-7-retrospective: optional
+  
+  epic-8: backlog
+  8-1-partner-venue-integration: backlog
+  8-2-payment-processing: backlog
+  8-3-calendar-integration: backlog
+  8-4-partner-management: backlog
+  epic-8-retrospective: optional

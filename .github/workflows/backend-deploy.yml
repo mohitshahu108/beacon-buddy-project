@@ -1,0 +1,36 @@
+name: Backend Deploy
+
+on:
+  push:
+    branches: [main]
+    paths: ['backend/**']
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          working-directory: ./backend
+          
+      - name: Install dependencies
+        working-directory: ./backend
+        run: bundle install
+        
+      - name: Run tests
+        working-directory: ./backend
+        run: bundle exec rspec
+        
+      - name: Build Docker image
+        working-directory: ./backend
+        run: docker build -t beacon-buddy-api .
+        
+      - name: Deploy to production
+        run: |
+          echo "Deploy to your hosting service"
+          # Add your deployment commands here
