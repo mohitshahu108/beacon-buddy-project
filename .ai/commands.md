@@ -1,6 +1,6 @@
 # AI Development Commands
 
-## Quick Start Commands
+## Quick Start CommandOpen [https://github.com/login/device](https://github.com/login/device) in a new tab and paste your one-time code: 68BE-30B4s
 
 ### Frontend Development
 ```bash
